@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadIt</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="index.js"></script>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="Untitled-2.png" alt="" height="300px" class="responsive">
+                <div class="card mb-4">
+                    
+                    <h2 class="card-header" id="fileName">Book Title</h2>
+                    <div class="card-body">
+                        <div class="displayBox scroll-box" id="fileContent">
+                            select book
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <a href="https://google.X-UA-Compatible">Learn how to code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card-my-4">
+                <h4 class="card-header ">Search</h4>
+                <div class="card-body">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="keyword" placeholder="Search..">
+                        <span class="input-group-btn">
+                            <button class="btn btn-secondary" type="button">Search</button>
+                        </span>
+                    </div>
+                </div>
+                <div  class="card-footer" id="searchstat">
+
+                </div>
+            </div>
+                <div class="card-my-4">
+                    <h4 class="card-header">Select a Book</h4>
+                    <div class="card-body">
+                        
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="list-unstyled mb-0">
+                                        <li ><a href="#" onclick="loadBook('Love_is_life.txt','Love is life')">Love is life</a></li>
+                                        <li><a href="#" onclick="loadBook('alice_in_wonderland.txt','Alice in wonderland')">Alice in wonder Land</a></li>
+                                        
+
+                                    </ul>
+                 
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+            <div class="card-my-4">
+                <h4 class="card-header">Most Used Words</h4>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="list-unstyle mb-0" id="mostUsed">
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+    </div>
+   
+</body>
+</html>

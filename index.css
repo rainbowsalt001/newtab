@@ -1,0 +1,24 @@
+body
+{
+    background: rgba(63, 174, 238, 0.87);
+    background: linear-gradient(to right,#312c3f,#1980b9);
+}
+.responsive
+{
+    width: 75%;
+    height: auto;
+}
+img{
+    padding: 15px;
+}
+.displayBox
+{
+    width: 100%;
+}
+.scroll-box
+{
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 15px;
+}
